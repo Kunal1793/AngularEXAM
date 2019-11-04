@@ -14,13 +14,6 @@
         "MedicinePrescribed": "Vicks"
     },
     {
-        "PatientID": "P1003",
-        "PatientName": "Robert James",
-        "PatientEmail": "Robert@gmail.com",
-        "DoctorsName":"Aaron Jacobs",
-        "MedicinePrescribed": "paracetamol"
-    },
-    {
         "PatientID": "P1004",
         "PatientName": "Brad Davis",
         "PatientEmail": "Brad@gmail.com",
