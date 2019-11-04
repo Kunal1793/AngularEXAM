@@ -1,0 +1,38 @@
+[
+    {
+      "PatientID": "P1001",
+      "PatientName": "Chris Jones",
+      "PatientEmail": "Chris@gmail.com",
+      "DoctorsName":"David Smith",
+      "MedicinePrescribed": "Crocin"
+    },
+    {
+        "PatientID": "P1002",
+        "PatientName": "Adam Williams",
+        "PatientEmail": "Adam@gmail.com",
+        "DoctorsName":"David Smith",
+        "MedicinePrescribed": "Vicks"
+    },
+    {
+        "PatientID": "P1003",
+        "PatientName": "Robert James",
+        "PatientEmail": "Robert@gmail.com",
+        "DoctorsName":"Aaron Jacobs",
+        "MedicinePrescribed": "paracetamol"
+    },
+    {
+        "PatientID": "P1004",
+        "PatientName": "Brad Davis",
+        "PatientEmail": "Brad@gmail.com",
+        "DoctorsName":"Aaron Jacobs",
+        "MedicinePrescribed": "Amoxicillin"
+    },
+    {
+        
+      "PatientID": "P1005",
+      "PatientName": "Jaden Wilson",
+      "PatientEmail": "Jaden@gmail.com",
+      "DoctorsName":"Jason Miller",
+      "MedicinePrescribed": "Ciprofloxacin"
+    }
+  ]

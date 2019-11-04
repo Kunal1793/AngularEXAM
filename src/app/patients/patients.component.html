@@ -1,0 +1,28 @@
+<div class="Patients">
+        <div class="container">
+            <h2>List of Patients</h2>
+            <hr>
+            <div class="ListOfPatients">
+              <table class="table table-bordered">
+                 <thead class="thead-dark">
+      <tr>
+        <th scope="col">Patient ID</th>
+        <th scope="col">Patient Name</th>
+        <th scope="col">Patient Email</th>
+        <th scope="col">Doctor Name</th>
+        <th scope="col">Medicine Prescribed</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let Patient of PatientsList">
+        <td>{{Patient.PatientID}}</td>
+        <td>{{Patient.PatientName}}</td>
+        <td>{{Patient.PatientEmail}}</td>
+        <td>{{Patient.DoctorsName}}</td>
+        <td>{{Patient.MedicinePrescribed}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>
+</div>        

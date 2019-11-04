@@ -1,0 +1,37 @@
+ <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h3>Enter your Login Details</h3>
+                <hr>
+                <form name="form" (ngSubmit)="onSubmit(PatientForm)" #PatientForm="ngForm">
+                    
+                <div class="form-group">
+                    <label><strong>Enter Your Email </strong></label>
+                    <input type="email" class="form-control" name="email" #EmailControl="ngModel" ngModel email required>
+                </div>
+
+                
+                <div *ngIf="EmailControl.touched && EmailControl.invalid">
+                        <p class="Error">*Email is required</p>
+                </div>
+
+                
+                <div class="form-group">
+                        <label><strong>Enter Your Password</strong></label>
+                        <input type="password" class="form-control" name="Password" #PasswordControl="ngModel" ngModel required>
+                </div>
+
+                
+                <div *ngIf="PasswordControl.touched && PasswordControl.invalid">
+                        <p class="Error">*Password is required</p>
+                </div>
+
+                
+                <div class="form-group">
+                        <button class="btn btn-primary" type="submit" [disabled]="PatientForm.invalid">Login</button>
+                </div>
+
+                </form> 
+                </div>
+            </div>
+        </div>
